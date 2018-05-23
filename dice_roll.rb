@@ -5,5 +5,6 @@
 def roll
   # code goes here
   # rand(1..6)
-  [1..6].sample(1)
+  arr = [1..6]
+  arr.sample(1)
 end
